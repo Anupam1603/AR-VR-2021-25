@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+int num;
+scanf("%d", &num);
+double sr = sqrt(num);
+printf("%f", sr);
+return 0;
+}

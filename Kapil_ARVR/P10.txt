@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main() {
+ int i, a[4];
+ for (i = 0; i < 4; ++i){
+      printf("Enter element a%d: ", i + 1);
+      scanf("%d", &a[i]);
+    }
+for (i = 0; i < 4; ++i){
+      sum += a[i];
+    }
+printf("%d", sum);
+    return 0;
+}

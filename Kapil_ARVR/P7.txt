@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(){
+char a[100], c;  
+    int i, count=0;
+    printf("Enter  the string : ");
+    gets(a);
+    printf("Enter character to be searched: ");
+    c=scanf("%c", &c); 
+    for(i=0;a[i];i++)  
+    {
+    	if(a[i]==c)
+    	{
+          count++;
+		}
+ 	}
+     
+	printf("character '%c' occurs %d times \n ", c, count);
+ 
+ 	 
+     
+    return 0;
+}

@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+int n, sum = 0, rem;
+printf("Enter a number- ");
+scanf("%d", &n);
+
+while (n != 0) {
+rem = n % 10;
+sum = sum * 10 + rem;
+n /= 10;
+  }
+
+printf("Reverse is %d", sum);
+
+return 0;
+}
